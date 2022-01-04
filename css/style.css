@@ -743,15 +743,15 @@ button {
   .navbar {
     padding: 15px 10px;
   }
+  .carousel-item {
+    height: 500px !important;
+  }
   .work ul {
     display: grid;
     grid-template-columns: 50% 50%;
   }
   .work ul li {
     margin: 0 5px 10px !important;
-  }
-  .work .shuffle img {
-    margin-bottom: 10px;
   }
   .contact p {
     margin-bottom: 20px;
@@ -767,5 +767,23 @@ button {
   .choose {
     display: none;
   }
+}
+.copy .row {
+  text-align: center !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 !important;
+  padding: 0 15px !important;
+}
+.copy .text-left {
+  text-align: center !important;
+  width: 100% !important;
+  justify-content: center !important;
+  align-items: center !important;
+  margin: 0 !important;
+}
+.copy .text-right {
+  display: none;
 }
 /*--------------------small media end */
